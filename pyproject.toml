@@ -1,0 +1,30 @@
+[project]
+name = "ieg-langgraph-suite"
+version = "0.1.0"
+description = "Five LangGraph projects for Tencent IEG game-business AI practice"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+  "langgraph>=0.2.47",
+  "pydantic>=2.6",
+  "python-dotenv>=1.0",
+  "typer>=0.12",
+  "fastapi>=0.110",
+  "uvicorn>=0.27",
+  "httpx>=0.27",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0"]
+
+[tool.pytest.ini_options]
+testpaths = ["packages/iegkit/tests", "projects"]
+pythonpath = [
+  "packages",
+  "projects/npc_lorekeeper/src",
+  "projects/questforge/src",
+  "projects/community_sentinel/src",
+  "projects/squad_coach/src",
+  "projects/liveops_analyst/src",
+]
+addopts = "-q --import-mode=importlib"

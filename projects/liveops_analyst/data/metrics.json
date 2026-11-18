@@ -1,0 +1,22 @@
+{
+  "d1_retention": {
+    "name": "活跃次日留存",
+    "unit": "ratio",
+    "definition": "次日仍活跃的玩家占当日活跃玩家的比例。这是样例字典，不是线上口径。"
+  },
+  "crash_rate": {
+    "name": "客户端崩溃率",
+    "unit": "ratio",
+    "definition": "发生崩溃的会话占比。"
+  },
+  "arppu": {
+    "name": "ARPPU",
+    "unit": "cny",
+    "definition": "付费用户平均收入。"
+  },
+  "drop_rate": {
+    "name": "活动掉落率",
+    "unit": "ratio",
+    "definition": "活动奖励触发概率。"
+  }
+}

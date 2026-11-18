@@ -1,0 +1,4 @@
+[
+  {"id": "retention", "question": "霜降补给上线后次留为什么掉了", "expect_status": "ok"},
+  {"id": "unknown", "question": "今天天气如何影响美术", "expect_status": "insufficient_data"}
+]

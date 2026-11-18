@@ -1,0 +1,4 @@
+{
+  "player_lin": {"rank": "黄金", "tenure_days": 40, "minor_account": false, "internal_note": "fixture"},
+  "player_kid": {"rank": "青铜", "tenure_days": 3, "minor_account": true, "internal_note": "fixture"}
+}

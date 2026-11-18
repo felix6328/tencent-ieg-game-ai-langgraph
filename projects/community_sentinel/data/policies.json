@@ -1,0 +1,5 @@
+[
+  {"id": "cheat_suspicion", "name": "疑似作弊", "auto_enforce": false},
+  {"id": "verbal_abuse", "name": "言语辱骂", "auto_enforce": false},
+  {"id": "unknown", "name": "未识别", "auto_enforce": false}
+]

@@ -1,0 +1,9 @@
+{
+  "frost_supply": {
+    "event_id": "frost_supply",
+    "fictional": true,
+    "note": "虚构样例，不是任何真实游戏的成绩。",
+    "baseline": {"d1_retention": 0.41, "crash_rate": 0.004, "arppu": 6.2, "drop_rate": 0.05, "holiday": false},
+    "event_window": {"d1_retention": 0.38, "crash_rate": 0.021, "arppu": 6.0, "drop_rate": 0.05, "holiday": false}
+  }
+}
